@@ -1,0 +1,8 @@
+[core]
+    remote = remote
+['remote "remote"']
+    url = s3://phnan-project/
+['remote "data-track"']
+    url = s3://phnan-project/data
+['remote "model-track"']
+    url = s3://phnan-project/model

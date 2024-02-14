@@ -1,0 +1,5 @@
+outs:
+- md5: 4a7a1ca6f7d31203404124f80363bf74
+  size: 1020
+  hash: md5
+  path: ridge_model.pkl
