@@ -35,5 +35,5 @@ jobs:
           pip install -r requirements_test_api.txt
       - name: Test API
         run: |
-          dvc pull model/model_ridge.pkl -r model-track
+          dvc pull model/ridge_model.pkl -r model-track
           pytest *_test.py
