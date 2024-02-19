@@ -32,7 +32,7 @@ jobs:
       - name: Installing dependencies
         run: |
           pip install dvc[s3]
-          pip install -r requirements_test.txt
+          pip install -r requirements_test_api.txt
       - name: Test API
         run: |
           dvc pull model/model_ridge.pkl -r model-track
