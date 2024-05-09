@@ -1,0 +1,4 @@
+# Model Pipeline Description
+### Train Score: 0.9011085759626718
+### Test Score: 0.785887476514375
+### Validation Score: 0.882417226238495

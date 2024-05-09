@@ -1,0 +1,5 @@
+stages:
+  training:
+    cmd: python3 src/train.py
+    deps:
+    - data/df_processed.csv

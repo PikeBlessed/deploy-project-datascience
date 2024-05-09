@@ -1,0 +1,4 @@
+-r api/requirements.txt
+
+pytest==8.0.0
+httpx==0.24.1

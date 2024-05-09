@@ -1,0 +1,9 @@
+schema: '2.0'
+stages:
+  training:
+    cmd: python3 src/train.py
+    deps:
+    - path: data/df_processed.csv
+      hash: md5
+      md5: 36298396489525dda4d5a2e53d733360
+      size: 8325
